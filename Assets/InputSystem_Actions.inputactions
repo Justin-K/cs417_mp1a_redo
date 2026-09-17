@@ -57,20 +57,10 @@
                     "priority": 0
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "f1ba0d36-48eb-4cd5-b651-1c94a6531f70",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
-                },
-                {
                     "name": "Previous",
                     "type": "Button",
                     "id": "2776c80d-3c14-4091-8c56-d04ced07a2b0",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false,
@@ -97,7 +87,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "testing_action",
+                    "name": "light_switch_toggle",
                     "type": "Button",
                     "id": "8475e822-ce2a-4ba7-a163-0b79f7628caf",
                     "expectedControlType": "",
@@ -107,7 +97,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "testing_action2",
+                    "name": "break_out_toggle",
                     "type": "Button",
                     "id": "19ed84e7-5539-49ed-b781-6301aad7ed69",
                     "expectedControlType": "",
@@ -117,7 +107,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "testing_action3",
+                    "name": "quit",
                     "type": "Button",
                     "id": "31092e8e-54fe-4b99-bbe7-910c19439ca1",
                     "expectedControlType": "",
@@ -127,7 +117,7 @@
                     "priority": 0
                 },
                 {
-                    "name": "testing_action4",
+                    "name": "spawn_object",
                     "type": "Button",
                     "id": "38ae63bf-030b-470a-a6f7-3575a5ffefc5",
                     "expectedControlType": "",
@@ -426,39 +416,6 @@
                 },
                 {
                     "name": "",
-                    "id": "eb40bb66-4559-4dfa-9a2f-820438abb426",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "daba33a1-ad0c-4742-a909-43ad1cdfbeb6",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "603f3daf-40bd-4854-8724-93e8017f59e3",
-                    "path": "<XRController>/secondaryButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "XR",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "1534dc16-a6aa-499d-9c3a-22b47347b52a",
                     "path": "<Keyboard>/1",
                     "interactions": "",
@@ -530,7 +487,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "testing_action",
+                    "action": "light_switch_toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2c19017-0570-46d0-bda5-465f1ae9335f",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR",
+                    "action": "light_switch_toggle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -541,7 +509,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "testing_action2",
+                    "action": "break_out_toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb9d5810-754f-400b-a5ef-8403b52ac2be",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR",
+                    "action": "break_out_toggle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -552,7 +531,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "testing_action3",
+                    "action": "quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ebdbde5-4f3b-4e58-919c-bd219d691626",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR",
+                    "action": "quit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -563,7 +553,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "testing_action4",
+                    "action": "spawn_object",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42189808-c0ff-4884-8389-462b9405f537",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";XR",
+                    "action": "spawn_object",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
